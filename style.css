@@ -1,0 +1,397 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links, .nav-right {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a, .nav-right a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+
+
+
+  .main-1{
+    display: flex;
+    overflow: auto;
+    flex: none;
+    width: 100%;
+    height: 100vh;
+    flex-flow: column nowrap;
+  }
+
+  .main-1>div{
+    text-align: center;
+    flex: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-2{
+    position: relative;
+  }
+  
+  .head{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    height: 40vh;
+    align-items: center;
+  }
+  .head3{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    height: 40vh;
+    align-items: center;
+  }
+  .head2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    height: 40vh;
+    align-items: center;
+  }
+  .head5{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    height: 40vh;
+    align-items: center;
+
+  }
+  .head6{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    height: 40vh;
+    align-items: center;
+
+  }
+
+  .head4{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    height: 40vh;
+    align-items: center;
+
+  }
+  
+  .head5 h1{
+    color: rgb(114, 112, 112);
+    font-size: 40px;
+  }
+  .head6 h1{
+    color: rgb(205, 197, 197);
+    font-size: 40px;
+  }
+  .head2 h2{
+    color: white;
+  }
+
+  .head h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 5px;
+  }
+  .head3 h1{
+    font-size: 45px;
+    font-weight: 500;
+    color:rgb(186, 191, 191);
+    padding-bottom: 5px;
+  }
+
+  
+  #order span{
+    background-color:white;
+  }
+  .head2 h1{
+    font-size: 45px;
+    font-weight: 500;
+    color:black;
+    padding-bottom: 5px;
+  }
+
+  .head4 h1{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+
+  .head span{
+    color: rgb(53, 53, 53);
+    font-size: 17px;
+  }
+  .head5 span{
+    color:white;
+    font-size: 17px;
+  }
+
+  .head4 span{
+    color:white;
+    font-size: 17px;
+  }
+  .head6 span{
+    color:white;
+    font-size: 17px;
+  }
+  .head3 span{
+    color:white;
+    font-size: 17px;
+  }
+  .head2 span{
+    color: rgb(53, 53, 53);
+    font-size: 17px;
+  }
+
+  .head a{
+    color: rgb(53, 53, 53);
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-position: under;
+  }
+
+  .head4 a{
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-position: under;
+  }
+  .head5 a{
+    color:white;
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-position: under;
+  }
+  .head6{
+      color:white;
+      text-decoration: underline;
+      cursor: pointer;
+      text-underline-position: under;
+    }
+  }
+  .head3 a{
+    color:white;
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-position: under;
+  }
+  .head6 a{
+    color:white;
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-position: under;
+  }
+
+
+
+
+
+  .head2 a{
+    color: rgb(53, 53, 53);
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-position: under;
+  }
+  
+
+
+  .head a:hover{
+    text-decoration-thickness: 2px;
+  }
+
+  .login{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .login div{
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn div{
+    align-items: center;
+    margin-right: 15px
+    margin-left: 15px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+
+  #order{
+    background-color: #333;
+    color: #fff;
+  }
+
+  #invn{
+    background-color: #fff;
+    color: #333;
+  }
+
+  .blank{
+    height: 70px;
+  }
+
+  .login .aroow{
+    height: 60px;
+    font-size: 25px;
+    color: #333;
+    animation: updown 1.5s ease infinite;
+  }
+
+  
+  .nav-right a:hover, .nav-links a:hover {
+    color: #0071e3;
+  }
+
+.container{
+  background-image: url(pexels-mikebirdy-810357.jpg);
+  height: 535px;
+  background-size: cover;
+  background-position: center;
+}
+
+.container1{
+  background-image: url(car-63930_1280.jpg);
+  height: 540px;
+  background-size: cover;
+  background-position: center;
+}
+.container2{
+  background-image: url(pexels-adaptphotos-11139552.jpg);
+  height: 540px;
+  background-size: cover;
+  background-position: center;
+}
+
+.container3{
+  background-image: url(corolla.webp);
+  height: 540px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.container4{
+  background-image: url(pexels-davidgari-9300916.jpg);
+  height: 540px;
+  background-size: cover;
+  background-position: center;
+}
+.container5{
+  background-image: url(tesla.jpeg);
+  height: 540px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.container6{
+  background-image: url(pexels-mikebirdy-810357.jpg);
+  height: 540px;
+  background-size: cover;
+  background-position: center;
+}
+
+.container7{
+  background-image: url(tesla.jpeg);
+  height: 540px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+
+.buttons{
+  position: relative;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.order-btn{
+  position: relative;
+  bottom: -250px;
+  width: 260px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 9px;
+  font-weight: 600;
+  background-color: rgb(68, 67, 67);
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  margin-right: 23px;
+}
+
+.demo-btn{
+  position: relative;
+  bottom: -250px;
+  align-items: center;
+  width: 260px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 9px;
+  font-weight: 600;
+  background-color: rgb(#fff);
+  border: none;
+  border-radius: 50px;
+  color:black;
+  margin-right: 23px;
+}
